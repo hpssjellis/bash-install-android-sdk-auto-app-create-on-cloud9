@@ -91,8 +91,8 @@ echo "Darn it the Android NDK is too big. so not installing it"
 
 echo "You may have to enter Y several times"
 
-android update sdk --filter tools --no-ui --force
 android update sdk --filter platform-tools --no-ui --force 
+android update sdk --filter tools --no-ui --force
 
 android update sdk --filter extra --no-ui --force
 
